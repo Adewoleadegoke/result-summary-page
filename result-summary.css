@@ -155,7 +155,7 @@ button:hover {
     cursor: pointer;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 710px) {
     body {
         display: flex;
         align-items: center;
@@ -169,18 +169,19 @@ button:hover {
         border-radius: 25px;
         margin: auto;
         display: flex;
-        flex-direction: row;  
-        box-sizing: border-box;
+        flex-direction: row;
         background: white;
-        max-width: 740px;
+        max-width: 740px;       
     }
     
     h1 {
         margin-bottom: 42px;
+        font-size: 20px;
     }
     
     .bitbolder {
         font-size: 30px;
+        margin-bottom: 10px;
     }
     
     .circle {
@@ -204,5 +205,9 @@ button:hover {
         overflow: hidden;   
         box-shadow: 0 30px 60px hsla(234, 85%, 45%, 0.1);
         padding-top: 45px;
+    }
+    
+    .spaced-paragraph {
+        font-size: 20px;
     }
 }
